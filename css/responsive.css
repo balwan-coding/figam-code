@@ -1,5 +1,9 @@
-@media (max-width:1450) {}
+@media (max-width:1450px) {
+  .page-width {
+    max-width: calc(1450px - 40px);
+  }
+}
 
-@media (max-width:750) {}
+@media (max-width:750px) {}
 
-@media (max-width:450) {}
+@media (max-width:450px) {}
