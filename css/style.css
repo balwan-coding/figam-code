@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.section-container {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.announcement-bar,
+.content,
+.community-section {
+  background-color: #F6F9FB;
+}
+
+.community-section,
+.content {
+  padding: 30px;
+}
+
+.nav-list li {
+  position: relative;
+}
+
+.nav-list li:hover .list-navi,
+.icons-nav .icons-list li:hover a {
+  color: #A9C7D4;
+}
+
+.icons-nav .icons-list li:hover a svg path {
+  stroke: #A9C7D4;
+}
+
+.nav-list li svg {
+  transition: .4s;
+}
+
+.nav-list li:hover svg {
+  transform: rotate(180deg);
+}
+
+.logo-contriner {
+  width: 57%;
+}
+
+.hader-wrapper {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr;
+}
+
+.hanbuger-div {
+  justify-content: flex-end;
+}
+
+header.header .hader-wrapper .hanbuger-div .hambuger-bar {
+  display: none;
+  font-size: 25px;
+}
+
+.dropdown {
+  position: absolute;
+  z-index: 999;
+  width: 100%;
+  visibility: hidden;
+  padding: 40px 0 0 0;
+}
+
+.nav-list li:hover .dropdown {
+  visibility: visible;
+}
+
+.dropdown li {
+  width: 100%;
+  padding: 5px 5px 5px 5px;
+}
+
+
+.dropdown li:hover {
+  background-color: rgb(242, 240, 240);
+}
+
+.dropdown li:hover a {
+  color: skyblue;
+}
+
+.baner-text {
+  position: absolute;
+  top: 50%;
+  transform: translate(-121%, -50%);
+  padding: 0 40px;
+  left: 50%;
+}
+
+.banner-wrapper {
+  position: relative;
+}
+
+ul.product-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+span.orinal-price {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+del.compaire-price {
+  font-size: 16px;
+  font-weight: 700;
+  color: #94a4a9;
+}
+
+ul.media-list {
+  display: flex;
+
+  gap: 30px;
+}
+
+.media-list li {
+  width: 30%;
+}

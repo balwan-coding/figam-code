@@ -6,17 +6,10 @@
   width: 100%;
 }
 
-.height {
+.h-full {
   height: 100%;
 }
 
-.relative {
-  position: relative;
-}
-
-.absolute {
-  position: absolute;
-}
 
 .page-width {
   margin: auto;
@@ -47,38 +40,30 @@
   text-transform: uppercase;
 }
 
-.color-primary {
-  color: #278A85;
-}
-
-.bg-primary {
-  background: #278A85;
-}
-
-.secondry-color {
-  color: #000000;
-}
-
-.bg-secondry {
-  background: #000000;
+.text-black {
+  color: #22282A;
 }
 
 .color-white {
-  color: white;
+  color: #F6F9FB;
 }
 
-.bg-white {
-  background-color: white;
-}
 
-.text-small {
-  font-family: Montserrat;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 100%;
+.text-normal {
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: normal;
   letter-spacing: 0%;
-  text-align: center;
   vertical-align: middle;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.font-bold {
+  font-weight: bold;
 }
 
 .text-main {
@@ -92,22 +77,20 @@
 }
 
 .main-heading {
-  font-family: Poppins;
-  font-weight: 600;
-  font-size: 48px;
-  line-height: 100%;
+  font-family: Ubuntu;
+  font-weight: 500;
+  font-size: 48.83px;
+  line-height: 48.83px;
   letter-spacing: 0%;
-  text-align: center;
   vertical-align: bottom;
 }
 
 .heading {
-  font-family: Poppins;
-  font-weight: 600;
-  font-size: 31px;
-  line-height: 100%;
+  font-family: Ubuntu;
+  font-weight: 500;
+  font-size: 39.06px;
+  line-height: 39.06px;
   letter-spacing: 0%;
-  text-align: center;
   vertical-align: bottom;
 }
 
@@ -119,21 +102,27 @@
   text-decoration: none;
 }
 
-.gap-40 {
-  gap: 40px;
+.gap-30 {
+  gap: 30px;
 }
 
 .gap-15 {
   gap: 15px;
 }
 
-.gap-80 {
-  gap: 80px;
+.button {
+  border-radius: 999px;
+  padding: 20px 40px;
+  outline: 1px solid gainsboro;
 }
 
-.button {
+.pairmay-btn {
+  background-color: #A9C7D4;
+  color: white
+}
 
-  border-radius: 5px;
-  padding: 13px 36px;
-  display: inline-block;
+.secondry-btn {
+  background-color: transparent;
+  color: #22282A;
+  outline: 1px solid #D1D1D1;
 }
